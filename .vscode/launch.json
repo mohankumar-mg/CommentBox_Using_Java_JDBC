@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ViewComment",
+      "request": "launch",
+      "mainClass": "ViewComment",
+      "projectName": "Java_With_MySQL_5f575129"
+    },
+    {
+      "type": "java",
+      "name": "PostComment",
+      "request": "launch",
+      "mainClass": "PostComment",
+      "projectName": "Java_With_MySQL_5f575129"
+    },
+    {
+      "type": "java",
+      "name": "Launch StoreUserInput",
+      "request": "launch",
+      "mainClass": "StoreUserInput",
+      "classpath": [
+        "${workspaceFolder}/lib/mysql-connector-j-9.0.0.jar",
+        "${workspaceFolder}"
+      ]
+    }
+  ]
+}
